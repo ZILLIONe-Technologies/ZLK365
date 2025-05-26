@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Inventory</title>
+    <link rel="stylesheet" href="my-web-project/src/styles/style.css">
+    <script>
+        function checkLogin() {
+            if (localStorage.getItem('loggedIn') !== 'true') {
+                window.location.href = 'login.html';
+            }
+        }
+        window.onload = checkLogin;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            <img src="my-web-project/src/images/zillione_logo.png" alt="Logo" class="logo">
+           ZLK365 Device Inventory
+        </h1>
+    </div>
+    <img src="my-web-project/src/images/Lap_image.png" alt="Another Image" class="additional-image">
+    <p class="description"><h2>HP ProBook 440 G11</h2></p>
+    <p><h3>Service Tag: 5CD5030Q1S</h3></p>
+    <p>Model Number : ProBook 440 G11</p>
+    <p>Serial Number : 5CD5030Q1S</p>
+    <p>Current User : Shenara Lelwala</p>
+    <p>CPU Configuration : U5 125H</p>
+    <p>Manufature Date : 10.08.2017</p>
+    <p>Purchased Date: 2/13/2018</p>
+    <p>RAM Details : 16GB 5600MHz</p>
+    <p>Storage : 512GB NVMe</p>
+    <p>Display Size : 14 inch</p>
+    <p>Vendor : N Technologies</p>
+    <p class="blink">Warrenty Status :  05.05.2025 </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="my-web-project/src/scripts/app.js"></script>
+    <p>&copy; 2025 ZILLIONe Technologies. All rights reserved.</p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: rgba(26, 26, 26, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+}
+
+.additional-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    animation: move 5s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.animate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.animate-button:hover {
+    transform: scale(1.1);
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    color: red;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}

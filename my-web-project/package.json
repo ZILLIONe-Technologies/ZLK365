@@ -1,0 +1,21 @@
+{
+  "name": "my-web-project",
+  "version": "1.0.0",
+  "description": "A web project showcasing animations with a tech-looking background.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "animations",
+    "web",
+    "tech"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
